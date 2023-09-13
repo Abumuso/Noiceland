@@ -182,7 +182,6 @@ svg {
   height: 972.063px;
   padding-bottom: 0px;
   justify-content: center;
-  /* gap: 64.969px; */
 }
 .s3-box1 {
   display: flex;
@@ -231,7 +230,6 @@ svg {
 }
 
 .s3 .all-posts {
-  /* margin-top: 89.97; */
   width: 205px;
   height: 54px;
   border: 1px solid #000;
@@ -253,4 +251,69 @@ svg {
   width: 1200px;
   height: 1px;
   background: #e6e6e6;
+}
+
+.feature-post p {
+  margin-left: 120px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.s4 {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 1126.375px;
+  justify-content: center;
+}
+
+.s4-box1 {
+  display: flex;
+  width: 50%;
+  padding: 24.969px 10px 49px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20.219px;
+}
+
+.s4-box1-text {
+  width: 285px;
+  height: 134px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.s4-box1-text p:nth-child(1) {
+  color: #999;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.s4-box1-text p:nth-child(2) {
+  margin-top: 18px;
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.s4-box1-text p:nth-child(3) {
+  margin-top: 15px;
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
