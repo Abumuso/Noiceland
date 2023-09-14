@@ -267,6 +267,8 @@ svg {
 
 .s4 {
   margin: 0 auto;
+  width: 1200px;
+  height: 1126.375px;
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
@@ -316,4 +318,66 @@ svg {
   line-height: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.footer {
+  margin-top: 145px;
+  width: 1440px;
+  height: 550px;
+  background: #141414;
+}
+
+.footer-top {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.footer-top img {
+  margin-top: 93px;
+  margin-left: 120px;
+  width: 135px;
+  height: 17px;
+}
+.footer-top p {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.line3 {
+  margin: 60px auto;
+  width: 1200px;
+  height: 1px;
+  background: #e6e6e6;
+}
+
+.footer-body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_left p {
+  width: 80%;
+  margin-left: 120px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.category {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
 }
